@@ -47,10 +47,6 @@
           </li>
           </li>
         </ul>
-
-
-
-
       </div>
     </div>
   </nav>
@@ -65,23 +61,39 @@
       <div class="row">
         <!--Leftnav-->
         <div class="col-3">
-          <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
+          <button class="btn btn-primary">Đăng thảo luận</button>
+          <ul class="list-group list-group-flush mt-3">
+            <a href="#" class="list-group-item list-group-item-action active">
+              <i class="icon far fa-comments Button-icon"></i>
+              Thảo luận
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="icon fas fa-th-list Button-icon"></i>
+              Danh mục</a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="Button-icon icon fas fa-exclamation"></i> Thông báo</a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="Button-icon icon fas fa-code"></i> Source Code</a>
+            <a href="#" class="list-group-item list-group-item-action disabled"> Vestibulum at eros</a>
           </ul>
         </div>
         <!--Rightnav-->
         <div class="col-9">
+          <div class="top-left-nav">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Mới nhất
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Mới nhất</a>
+                <a class="dropdown-item" href="#">Trên cùng</a>
+                <a class="dropdown-item" href="#">Gần nhất</a>
+                <a class="dropdown-item" href="#">Cũ nhất</a>
+                <a class="dropdown-item" href="#">Phổ biến</a>  
+                <a class="dropdown-item" href="#">Không phổ biến</a>  
+              </div>
+            </div>
+          </div>
           <div class="card mt-2">
             <div class="card-body">
               <blockquote class="blockquote mb-0">
@@ -140,6 +152,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4dc95ff4c2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
