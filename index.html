@@ -14,7 +14,7 @@
 
 <body>
   <!--nav-->
-  <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color: #2C7C78;">
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
     <div class="container">
       <a class="navbar-brand" href="#">Logo</a>
       <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
@@ -40,10 +40,10 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Đăng nhập</a>
+            <a class="nav-link" data-toggle="modal" data-target="#LoginModal">Đăng nhập</a>
           </li>
           <li class="nav-item float-right">
-            <a class="nav-link" href="#">Đăng ký</a>
+            <a class="nav-link" data-toggle="modal" data-target="#RegisterModal">Đăng ký</a>
           </li>
           </li>
         </ul>
@@ -61,7 +61,7 @@
       <div class="row">
         <!--Leftnav-->
         <div class="col-3">
-          <button class="btn btn-primary">Đăng thảo luận</button>
+          <button class="btn btn-primary discuss">Đăng thảo luận</button>
           <ul class="list-group list-group-flush mt-3">
             <a href="#" class="list-group-item list-group-item-action active">
               <i class="icon far fa-comments Button-icon"></i>
@@ -293,14 +293,54 @@
 
           </div>
           <!--end post-->
-
-          
-
         </div>
       </div>
     </div>
   </div>
-
+<!-- Modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Đăng nhập</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container text-center display-4">
+          <a href="#"><i class="fab fa-google btn-google"></i></a>
+          <a href="#"><i class="fab fa-facebook btn-facebook"></i></a>
+          <a href="#"><i class="fab fa-github btn-github"></i></a>
+        </div>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address or username</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Ghi nhớ</label>
+          </div>
+            <button style="width:100%" type="submit" class="btn btn-primary">Đăng nhập</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <div style="width:100%">
+          <p><a href="">Quên mật khẩu?</a></p>
+        </div>
+        <div style="width:100%">
+          <p>Không có tài khoản <a href="">Đăng ký</a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

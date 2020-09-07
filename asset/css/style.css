@@ -1,0 +1,46 @@
+.navbar
+{
+    background-color: rgba(44, 124, 120, 0.9) !important;
+    box-shadow: 2px 2px 5px grey;
+}
+.discuss{
+    background-color: rgb(66, 155, 151);
+    border-color: white;
+}
+.discuss:hover{
+    background-color: rgb(44, 124, 120);
+    border-color: white;
+}
+.active 
+{
+    background-color: rgb(44, 124, 120) !important;
+    border-color: rgb(44, 124, 120)!important;
+}
+.card{
+    background-color: rgb(222, 236, 236);
+    transition: 0.3s;
+}
+.card:hover{
+    transition: 0.3s;
+    background-color: rgb(76, 143, 139) !important;
+}
+.btn-facebook{
+    
+    color:rgb(  59, 89, 152)!important;
+}
+.btn-facebook:hover{
+    color:  rgb(  52, 78, 134) !important;
+}
+.btn-google{
+    color: rgb(197, 0, 0) !important;
+}
+.btn-google:hover{
+    color:rgb(194, 0, 0) !important;
+}
+.btn-github{
+     
+    color: rgb(34, 33, 33) !important;
+}
+.btn-github:hover{
+       color: rgb(19, 19, 19) !important;
+}
