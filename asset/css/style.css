@@ -56,3 +56,15 @@
 .top-left-nav{
     width: 150px;
 }
+.control-user:hover
+{
+    background-color: rgb(44, 124, 120) !important; 
+}
+.control-user
+{
+    background-color: rgba(83, 158, 154, 0.9) !important;
+}
+.text-white
+{
+    color: white;
+}
