@@ -68,3 +68,27 @@
 {
     color: white;
 }
+.post-author {
+    display: flex;
+    align-items: center;
+}
+.avatar--lg{
+    
+        width: 45px;
+        height: 45px;
+    
+}
+.mr-05
+{
+    margin-right: .5rem!important;
+}
+.post-author__info{
+    line-height: 24px;
+}
+.post-meta{
+    flex: 1;
+}
+.content-body
+{
+    font-size:18px;
+}
