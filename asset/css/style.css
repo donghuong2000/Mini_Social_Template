@@ -78,6 +78,10 @@
         height: 45px;
     
 }
+.avatar--sm{
+    width: 30px;
+    height: 30px;
+}
 .mr-05
 {
     margin-right: .5rem!important;
@@ -91,4 +95,38 @@
 .content-body
 {
     font-size:18px;
+}
+.comment-thread .comment-form {
+    padding: 5px 15px;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.comment-form__write {
+    display: flex;
+    margin: 8px 0 14px;
+}
+.editor {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.editor textarea {
+    padding: 8px 2.2rem 30px 8px;
+    width: 100%;
+    resize: none;
+    outline: none;
+    min-height: 120px;
+    vertical-align: top;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+    transition: border-color .1s ease-in;
+    overflow: hidden!important;
+}
+.comment-reply
+{
+    margin-left: 5%;
+    margin-right: 2%;
 }
