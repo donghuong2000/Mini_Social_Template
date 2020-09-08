@@ -11,7 +11,7 @@
     background-color: rgb(44, 124, 120);
     border-color: white;
 }
-.active 
+.actived 
 {
     background-color: rgb(44, 124, 120) !important;
     border-color: rgb(44, 124, 120)!important;
@@ -43,4 +43,16 @@
 }
 .btn-github:hover{
        color: rgb(19, 19, 19) !important;
+}
+
+.pagination a
+{
+    color:black !important;
+}
+.page-item.active .page-link {
+    background-color: rgb(44, 124, 120) !important;
+    border-color: rgb(44, 124, 120)!important;
+}
+.top-left-nav{
+    width: 150px;
 }
