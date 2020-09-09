@@ -14,7 +14,7 @@
 
 <body>
     <!--nav-->
-    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="z-index:1030 ;" >
         <div class="container">
             <a class="navbar-brand" href="#">Logo</a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
@@ -59,13 +59,23 @@
     <hr>
     <!--Content-->
     <div class="Content">
-        <div class="ad d-flex justify-content-center">
-            <img src="https://via.placeholder.com/1300x100" alt="Đây là quảng cáo">
+        <div class="d-flex justify-content-center align-items-center">
+            <img class="ad" src="https://via.placeholder.com/1300x100" alt="Đây là quảng cáo">
         </div>
         <div class="container pt-5">
             <div class="row">
-                <div class="p-0 hidden-md-down col-lg-1"></div>
-                <div class="post-body__main col-lg-8">
+                <div class="d-none d-lg-block">
+                    <div class="p-0 col-lg-1 d-flex flex-column align-items-center sticky-top">
+                        <div class="py-5"></div>
+                        <img id="trigger" hidden src="https://via.placeholder.com/45" alt="" class="avatar--lg rounded-circle">
+                        <a href=""><i class="fas fa-heart py-3" aria-hidden="true" style="font-size: 33px;"></i></a>
+                        <h5 class="py-3">10</h5>
+                        <a href=""><i class="far fa-comment-dots py-3" style="font-size: 33px;"></i></a>
+                        <a href=""><i class="fas fa-share py-3" style="font-size: 33px;"></i></i></a>
+                    </div>
+                </div>
+                <!--post-->
+                <div class="post-body__main col-lg-8 col-md-12 col-sm-12">
                     <article class="post-content">
                         <header class="mb-2">
                             <!--THONG TIN CỦA TAC GIẢ BAI POST-->
@@ -171,9 +181,119 @@
                         </div>
                     </article>
                 </div>
+                <!--end post post-->
                 <div class="post-body__right px-0 hidden-md-down col-lg-3">
-
+                    <h3>Bài đăng mới nhất</h3>
+                    <div class="card mt-2">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="Title">
+                                <a href="postdetail.html"><h5>Title
+                                </h5>
+                              </a>
+                              </div> 
+                              <div class="tags">
+                                <span class="badge badge-primary">sss</span>
+                                <span class="badge badge-secondary">thông báo</span>
+                                <span class="badge badge-success">hỏi đáp </span>
+                            </div>
+                            </div>
+                            <div class="col-lg-2 d-flex">
+                              <span><i class="far fa-comment mx-2"></i></span>
+                              23
+                              <span ><i class="far fa-eye mx-2"></i></span>
+                              60
+                              <span ><i class="fas fa-heart mx-2"></i></span>
+                              2
+                            </div>
+                          </div>
+                        </div>
+            
+                    </div>
+                    <div class="card mt-2">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="Title">
+                                <a href="postdetail.html"><h5>Title
+                                </h5>
+                              </a>
+                              </div> 
+                              <div class="tags">
+                                <span class="badge badge-primary">sss</span>
+                                <span class="badge badge-secondary">thông báo</span>
+                                <span class="badge badge-success">hỏi đáp </span>
+                            </div>
+                            </div>
+                            <div class="col-lg-2 d-flex">
+                              <span><i class="far fa-comment mx-2"></i></span>
+                              23
+                              <span ><i class="far fa-eye mx-2"></i></span>
+                              60
+                              <span ><i class="fas fa-heart mx-2"></i></span>
+                              2
+                            </div>
+                          </div>
+                        </div>
+            
+                    </div>
+                    <div class="card mt-2">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="Title">
+                                <a href="postdetail.html"><h5>Title
+                                </h5>
+                              </a>
+                              </div> 
+                              <div class="tags">
+                                <span class="badge badge-primary">sss</span>
+                                <span class="badge badge-secondary">thông báo</span>
+                                <span class="badge badge-success">hỏi đáp </span>
+                            </div>
+                            </div>
+                            <div class="col-lg-2 d-flex">
+                              <span><i class="far fa-comment mx-2"></i></span>
+                              23
+                              <span ><i class="far fa-eye mx-2"></i></span>
+                              60
+                              <span ><i class="fas fa-heart mx-2"></i></span>
+                              2
+                            </div>
+                          </div>
+                        </div>
+            
+                    </div>
+                    <div class="card mt-2">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="Title">
+                                <a href="postdetail.html"><h5>Title
+                                </h5>
+                              </a>
+                              </div> 
+                              <div class="tags">
+                                <span class="badge badge-primary">sss</span>
+                                <span class="badge badge-secondary">thông báo</span>
+                                <span class="badge badge-success">hỏi đáp </span>
+                            </div>
+                            </div>
+                            <div class="col-lg-2 d-flex">
+                              <span><i class="far fa-comment mx-2"></i></span>
+                              23
+                              <span ><i class="far fa-eye mx-2"></i></span>
+                              60
+                              <span ><i class="fas fa-heart mx-2"></i></span>
+                              2
+                            </div>
+                          </div>
+                        </div>
+            
+                    </div>
                 </div>
+                 <!--Comment-->
                 <div class="post-comment col-12">
                     Bình luận
                     <div class="comment-thread">
@@ -294,6 +414,7 @@
 
                     </div>
                 </div>
+                <!--End COmment-->
             </div>
         </div>
     </div>
@@ -384,6 +505,18 @@
             đây là footer
         </div>
     </footer>
+    <div class="d-lg-none">
+    <div class="post-bottom-bar d-flex fixed-bottom align-items-center justify-content-center actived">
+        <div class="py-1">
+            <img src="https://via.placeholder.com/45" alt="aa" class="avatar--lg rounded-circle">
+        </div>
+        
+        <a href=""><i class="fas fa-heart px-3 text-white" aria-hidden="true" style="font-size: 33px;"></i></a>
+        <h5 class="px-3 text-white">10</h5>
+        <a href=""><i class="far fa-comment-dots px-3 text-white" style="font-size: 33px;"></i></a>
+        <a href=""><i class="fas fa-share px-3 text-white" style="font-size: 33px;"></i></i></a>
+    </div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

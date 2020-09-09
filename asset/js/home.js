@@ -7,7 +7,7 @@ sf.onmouseenter = function(){
 sf.onmouseleave = function(){
     sf.style.transition ="0.3s"
     sf.style.width = "200px"
-
+    
 }
 
 
@@ -20,3 +20,15 @@ $('#replyModal').on('show.bs.modal', function (event) {
     modal.find('.modal-title').text('New message to ' + recipient)
     modal.find('.modal-body input').val(recipient)
   })
+
+window.addEventListener("scroll",function(){ 
+      //các câu lệnh 
+    if(pageYOffset>270)
+    {
+        document.getElementById("trigger").removeAttribute("hidden");
+    }
+    else
+    {
+        document.getElementById("trigger").setAttribute("hidden", true);
+    }
+})
