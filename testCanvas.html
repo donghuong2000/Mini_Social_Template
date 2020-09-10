@@ -26,7 +26,7 @@
           </li>
         </ul>
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item actived">
+          <li class="nav-item">
             <form class="form-inline my-2 my-lg-0">
               <input id="searchForm" class="form-control mr-sm-2" type="text" placeholder="Tìm kiếm trên diễn đàn">
             </form>
@@ -39,11 +39,34 @@
               <a class="dropdown-item" href="#">English</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="modal" data-target="#LoginModal">Đăng nhập</a>
+          <li class="nav-item dropdown">
+            <a class="btn control-user rounded-circle" href="#" id="MessageDropdown" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false"><i class="fas fa-envelope text-white"></i></a>
+            <div class="dropdown-menu" aria-labelledby="MessageDropdown">
+              <a class="dropdown-item" href="#">Hiện ko có tin nhắn nào</a>
+            </div>
           </li>
-          <li class="nav-item float-right">
-            <a class="nav-link" data-toggle="modal" data-target="#RegisterModal">Đăng ký</a>
+         
+          <li class="nav-item dropdown">
+            <a class="btn control-user rounded-circle" href="#" id="NotifyDropdown" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false"><i class="fas fa-bell text-white"></i></a>
+            <div class="dropdown-menu" aria-labelledby="NotifyDropdown">
+              <a class="dropdown-item" href="#">Không có thông báo mới</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="btn control-user badge badge-pill" href="#" id="UserDropdown" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+              <img src="https://via.placeholder.com/30" class="rounded-circle text-white" alt="">
+              Username
+            </a>
+            <div class="dropdown-menu" aria-labelledby="UserDropdown">
+              <a class="dropdown-item" href="#"><i class="icon fas fa-user Button-icon"></i> Hồ sơ</a>
+              <a class="dropdown-item" href="#"><i class="icon fas fa-cog Button-icon"></i> Cài đặt</a>
+              <a class="dropdown-item" href="#"><i class="icon far fa-moon Button-icon"></i> Night Mode</a>
+              <a class="dropdown-item" href="#"><i class="icon fas fa-sign-out-alt Button-icon"></i>Đăng xuất</a>
+              
+            </div>
           </li>
           </li>
         </ul>
@@ -59,85 +82,7 @@
   <div class="Content">
     <div class="container">
       <div class="row">
-        <!--Leftnav-->
-        <div class="col-lg-3">
-          <a class="btn btn-primary discuss" href="post.html" >Đăng thảo luận</a>
-          <ul class="list-group list-group-flush mt-3">
-            <a href="#" class="list-group-item list-group-item-action actived">
-              <i class="icon far fa-comments Button-icon"></i>
-              Thảo luận
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-              <i class="icon fas fa-th-list Button-icon"></i>
-              Danh mục</a>
-            <a href="#" class="list-group-item list-group-item-action">
-              <i class="Button-icon icon fas fa-exclamation"></i> Thông báo</a>
-              <a href="#" class="list-group-item list-group-item-action">
-                <i class="fas fa-gamepad"></i> Game World</a>
-            <a href="#" class="list-group-item list-group-item-action">
-              <i class="Button-icon icon fas fa-code"></i> Source Code</a>
-            <a href="#" class="list-group-item list-group-item-action"><i class="Button-icon icon far fa-question-circle"></i> Hỏi Đáp</a>
-            <a href="#" class="list-group-item list-group-item-action"><i class="Button-icon icon fas fa-share-square"></i> Góc chia sẻ</a>
-            <a href="#" class="list-group-item list-group-item-action"><i class="Button-icon icon fas fa-comments-dollar"></i> Rao vặt- chợ trời</a>
-            <a href="#" class="list-group-item list-group-item-action"><i class="Button-icon icon fas fa-grin-squint-tears"></i> Trò chuyện linh tinh</a>
-          </ul>
-        </div>
-        <!--Rightnav-->
-        <div class="col-lg-9 col-sm-12">
-          <div class="top-left-nav">
-            <select class="custom-select">
-              <option selected>Mới nhất</option>
-              <option value="1">Gần đây</option>
-              <option value="2">Nhiều người xem</option>
-              <option value="3">Cũ nhất</option>
-              <option value="4">Ít quan tâm</option>
-            </select>
-          </div>
-          <!--start post-->
-          <div class="card mt-2">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-1 d-none d-md-block">
-                  <img class="rounded-circle" src="https://via.placeholder.com/50">
-                </div>
-                <div class="col-lg-9 col-md-9 col-sm-11">
-                  <div class="Title">
-                    <a href="postdetail.html"><h3>Title
-                    </h3>
-                  </a>
-                    <span class="badge badge-primary">sss</span>
-                      <span class="badge badge-secondary">thông báo</span>
-                      <span class="badge badge-success">hỏi đáp </span>
-                  </div> 
-                    <p><i class="icon fas fa-reply "></i> thời gian đăng</p>
-                    <p>nội dung demo tối da 100 kí tự g demonội dung demo nội dung demonội dung demonội dung demonội dung demo....</p>
-                  
-                </div>
-                <div class="col-lg-2 col-sm-1 px-sm-1">
-                  <span class="d-none d-md-block"><i class="far fa-comment"></i>24</span>
-                  <span class="d-none d-md-block"><i class="far fa-eye"></i> 19123</span>
-                  <span class="badge badge-pill badge-dark d-md-none">24</span>
-                  <span class="badge badge-pill badge-light d-md-none">19123</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div class="container mt-5 ">
-            <ul class="pagination justify-content-center">
-              <li class="page-item">
-                <a class="page-link" href="#" tabindex="-1">Back</a>
-              </li>
-              <li class="page-item actived"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#">Next</a>
-              </li>
-            </ul>
-          </div>
-          
-        </div>
+          <canvas id="my-Canvas"></canvas>
       </div>
     </div>
   </div>
@@ -203,6 +148,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="/asset/js/fontawesomekit.js"></script>
   <script src="/asset/js/home.js"></script>
+  <script src="/asset/js/game.js"></script>
 
 </body>
 

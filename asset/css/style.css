@@ -133,3 +133,11 @@
 .ad{
     width: 100%;
 }
+#searchForm{
+    width:200px;
+    transition: 0.3s;
+}
+#searchForm:hover{
+    width:400px;
+    transition: 0.3s;
+}

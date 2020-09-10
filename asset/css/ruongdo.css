@@ -1,0 +1,9 @@
+.o-item{
+    background: url(/images/item.png);
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
