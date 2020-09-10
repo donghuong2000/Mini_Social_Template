@@ -1,4 +1,4 @@
 deployment:
  tasks:
- - export DEPLOYPATH=/home/hditdev/repositories/Mini_Social_Template
+ - export DEPLOYPATH=/home/hditdev/repositories/Mini_Social_Template/web
  - /bin/cp -R web $DEPLOYPATH
