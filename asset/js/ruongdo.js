@@ -20,7 +20,7 @@ function allowDrop(ev) {
     image.forEach(element => {
       l+="url("+element+"),"
     });
-    alert(l);
+    
     var a = document.getElementById("final");
     a.setAttribute("style","background:"+l.substring(0,l.length-1)+";")
   }
