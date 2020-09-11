@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
 }
 .o-item-final{
-    background:url(/images/z.png);
+    background:url(/images/yy.png),url(/images/z.png);
     width: 100px;
     height: 100px;
     display: inline-block;
