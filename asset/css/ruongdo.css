@@ -4,15 +4,74 @@
     height: 100px;
     display: inline-block;
     text-align: center;
-    position: relative;
+    
+    background-repeat: no-repeat;
+}
+.o-item-canh{
+    background: url(/images/yyy.png),url(/images/z.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.o-item-ao{
+    background: url(/images/x.png),url(/images/z.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.o-item-quan{
+    background: url(/images/w.png),url(/images/z.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.o-item-toc{
+    background: url(/images/v.png),url(/images/z.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.o-item-pet{
+    background: url(/images/pet.png),url(/images/z.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.o-item-camtay{
+    background: url(/images/camtay.png),url(/images/z.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.o-item-non{
+    background: url(/images/u.png),url(/images/z.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
     background-repeat: no-repeat;
 }
 .o-item-final{
-    background:url(/images/yy.png),url(/images/z.png);
+    background:url(/images/yy.png);
     width: 100px;
     height: 100px;
     display: inline-block;
     text-align: center;
     position: relative;
+    background-repeat: no-repeat;
+    
+    
     
 }

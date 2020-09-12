@@ -83,53 +83,197 @@
   <div class="Content">
     <div class="container">
       <div class="row">
-        <div class="odo">
-          <div id="ao" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-          <div id="avatar" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-          <div id="camtay" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-          <div id="canh" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-          <div id="non" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-          <div id="pet" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-          <div id="quan" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-          <div id="toc" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="col-4">
+          <div id="final" class="o-item-final"></div>
         </div>
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 500px">
-            <div id="o0" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)">
-              <img id="drag_ao" src="/images/x.png" draggable="true" ondragstart="drag(event)" width="90" height="90">
+        <div class="col-4">
+          <div class="row">
+          <div class="dropdown">
+            <a id="o1" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="thao-o1" class="dropdown-item" onclick="thao(this.id)" >tháo</a>
             </div>
-            <div id="o1" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)">
-              <img id="drag_camtay" src="/images/camtay.png" draggable="true" ondragstart="drag(event)" width="90" height="90"></div>
-            <div id="o2" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)">
-              <img id="drag_canh" src="/images/yyy.png" draggable="true" ondragstart="drag(event)" width="90" height="90"></div>
-            <div id="o3" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)">
-              <img id="drag_non" src="/images/u.png" draggable="true" ondragstart="drag(event)" width="90" height="90"></div>
-            <div id="o4" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)">
-              <img id="drag_pet" src="/images/pet.png" draggable="true" ondragstart="drag(event)" width="90" height="90"></div>
-            <div id="o5" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)">
-              <img id="drag_quan" src="/images/w.png" draggable="true" ondragstart="drag(event)" width="90" height="90"></div>
-            <div id="o6" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)">
-              <img id="drag_toc" src="/images/v.png" draggable="true" ondragstart="drag(event)" width="90" height="90"></div>
-            <div id="o7" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-              
-            <div id="o8" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-              
-            <div id="o9" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-              
-            <div id="o10" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div id="o11" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div id="o12" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div id="o13" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div id="o14" class="o-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            
+          </div>
+          
+          <div class="dropdown">
+            <a id="o2" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="thao-o2" class="dropdown-item" onclick="thao(this.id)" >tháo</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a id="o3" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="thao-o3" class="dropdown-item" onclick="thao(this.id)" >tháo</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a id="o4" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="thao-o4" class="dropdown-item" onclick="thao(this.id)" >tháo</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a id="o5" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="thao-o5" class="dropdown-item" onclick="thao(this.id)" >tháo</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a id="o6" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="thao-o6" class="dropdown-item" onclick="thao(this.id)" >tháo</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a id="o7" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="thao-o7" class="dropdown-item" onclick="thao(this.id)" >tháo</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a id="o8" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="thao-o8" class="dropdown-item" onclick="thao(this.id)" >tháo</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a id="o9" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="thao-o9" class="dropdown-item" onclick="thao(this.id)" >tháo</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a id="o10" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="thao-o10" class="dropdown-item" onclick="thao(this.id)" >tháo</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a id="o11" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="thao-o11" class="dropdown-item" onclick="Ban(this.id)" >tháo</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a id="o12" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="thao-o12" class="dropdown-item" onclick="thao(this.id)" >tháo</a>
+            </div>
           </div>
         </div>
-      
-    </div>
-    <div id="final" class="o-item-final"></div>
+        </div>
+        <div class="col-4">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Rương đồ
+          </button>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <div class="row">
+                <div class="dropdown">
+                  <a id="r1" class="o-item-canh" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a id="ban-r1" class="dropdown-item" onclick="Ban(this.id)" >Bán</a>
+                  <a id="mac-r1" class="dropdown-item" onclick="Mac(this.id)">Mặc vào</a>
+                  
+                  </div>
+                </div>  
+                <div class="dropdown">
+                  <a id="r2" class="o-item-ao" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a id="ban-r2" class="dropdown-item" onclick="Ban(this.id)" >Bán</a>
+                    <a id="mac-r2" class="dropdown-item" onclick="Mac(this.id)">Mặc vào</a>
+                  </div>
+                </div>  
+                <div class="dropdown">
+                  <a id="r3" class="o-item-camtay" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a id="ban-r3" class="dropdown-item" onclick="Ban(this.id)" >Bán</a>
+                    <a id="mac-r3" class="dropdown-item" onclick="Mac(this.id)">Mặc vào</a>
+                  
+                  </div>
+                </div>  
+                <div class="dropdown">
+                  <a id="r4" class="o-item-pet" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a id="ban-r4" class="dropdown-item" onclick="Ban(this.id)" >Bán</a>
+                    <a id="mac-r4" class="dropdown-item" onclick="Mac(this.id)">Mặc vào</a>
+                  
+                  </div>
+                </div>  
+                <div class="dropdown">
+                  <a id="r5" class="o-item-quan" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a id="ban-r5" class="dropdown-item" onclick="Ban(this.id)" >Bán</a>
+                    <a id="mac-r5" class="dropdown-item" onclick="Mac(this.id)">Mặc vào</a>
+                  
+                  </div>
+                </div>  
+                <div class="dropdown">
+                  <a  id="r6" class="o-item-toc" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      
+                  </a>
+                  <div  class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a id="ban-r6" class="dropdown-item" onclick="Ban(this.id)" >Bán</a>
+                    <a id="mac-r6" class="dropdown-item" onclick="Mac(this.id)">Mặc vào</a>
+                  
+                  </div>
+                </div>  
+                <div class="dropdown">
+                  <a id="r7" class="o-item-non" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a id="ban-r7" class="dropdown-item" onclick="Ban(this.id)" >Bán</a>
+                    <a id="mac-r7" class="dropdown-item" onclick="Mac(this.id)">Mặc vào</a>
+                  </div>
+                </div>  
+                <div class="dropdown">
+                  <a id="r8" class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a id="ban-r8" class="dropdown-item" onclick="Ban(this.id)" >Bán</a>
+                    <a id="mac-r8" class="dropdown-item" onclick="Mac(this.id)">Mặc vào</a>
+                  
+                  </div>
+                </div>  
+                <div class="dropdown">
+                  <a class="o-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a id="ban-r1" class="dropdown-item" onclick="Ban(this.id)" >Bán</a>
+                    <a id="mac-r1" class="dropdown-item" onclick="Mac(this.id)">Mặc vào</a>
+                  </div>
+                </div>  
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   </div>
 
   
