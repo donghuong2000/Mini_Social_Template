@@ -1,0 +1,18 @@
+.anh_bia{
+    background: url(https://via.placeholder.com/950x350);
+    height: 370px;
+    width: 950px;
+    background-repeat: no-repeat;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.anhdaidien{
+    border-radius: 50%;
+    border: 10px solid white;
+    display: inline-block;
+}
+.emty{
+    height: 245px;
+    width: 245px;
+}
