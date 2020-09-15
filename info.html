@@ -41,23 +41,23 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="btn control-user rounded-circle" href="#" id="MessageDropdown" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false"><i class="fas fa-envelope text-white"></i></a>
+            <a class="btn control-user rounded-circle" href="#" id="MessageDropdown" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"><i class="fas fa-envelope text-white"></i></a>
             <div class="dropdown-menu" aria-labelledby="MessageDropdown">
               <a class="dropdown-item" href="#">Hiện ko có tin nhắn nào</a>
             </div>
           </li>
-         
+
           <li class="nav-item dropdown">
-            <a class="btn control-user rounded-circle" href="#" id="NotifyDropdown" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false"><i class="fas fa-bell text-white"></i></a>
+            <a class="btn control-user rounded-circle" href="#" id="NotifyDropdown" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell text-white"></i></a>
             <div class="dropdown-menu" aria-labelledby="NotifyDropdown">
               <a class="dropdown-item" href="#">Không có thông báo mới</a>
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="btn control-user badge badge-pill" href="#" id="UserDropdown" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
+            <a class="btn control-user badge badge-pill" href="#" id="UserDropdown" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               <img src="https://via.placeholder.com/30" class="rounded-circle text-white" alt="">
               Username
             </a>
@@ -66,7 +66,7 @@
               <a class="dropdown-item" href="#"><i class="icon fas fa-cog Button-icon"></i> Cài đặt</a>
               <a class="dropdown-item" href="#"><i class="icon far fa-moon Button-icon"></i> Night Mode</a>
               <a class="dropdown-item" href="#"><i class="icon fas fa-sign-out-alt Button-icon"></i>Đăng xuất</a>
-              
+
             </div>
           </li>
           </li>
@@ -82,114 +82,252 @@
   <!--Content-->
   <div class="Content">
     <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="head-info">
-                <div class="anh_bia d-flex align-items-end justify-content-between">
-                    <div class="emty"></div>
-                    <div class="anh_dai_dien">
-                        <img class="anhdaidien" src="/images/avatar.jpg" alt="avatar">
-                    </div>
-                    <div class="emty d-flex align-items-end justify-content-between">
-                        <button class="btn btn-sm btn-dark mb-4">Chỉnh sửa ảnh bìa </button>
-                    </div>
-                    
+      <div class="row d-flex justify-content-center">
+
+        <div class="head-info">
+          <div class="anh_bia d-flex align-items-end justify-content-between">
+            <div class="emty"></div>
+            <div class="anh_dai_dien">
+              <img class="anhdaidien" src="/images/avatar.jpg" alt="avatar">
+            </div>
+            <div class="emty d-flex align-items-end justify-content-between">
+              <button class="btn btn-sm btn-dark mb-4">Chỉnh sửa ảnh bìa </button>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <h3><strong>Nguyễn Đông Hướng</strong></h3>
+          <h5 class="text-muted">còn đây là một dòng gì đó ngầu lòi</h5>
+        </div>
+
+      </div>
+      <ul class="nav nav-pills nav-stacked ml-5">
+        <li class="nav-item">
+          <a data-toggle="pill" href="#home" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a data-toggle="pill" href="#nhanvatpill" class="nav-link">nhân vật</a>
+        </li>
+        <li class="nav-item ">
+          <a data-toggle="pill" href="#itempill" class="nav-link">vật phẩm</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <div class="row">
+            <div class="col-5">
+              <div class="border border-dark rounded">
+                <h3><strong>Giới thiệu</strong></h3>
+                <p>dòng 2</p>
+                <p>dòng 3</p>
+                <p>dòng 4</p>
+                <button class="btn btn-success"> Chỉnh sửa chi tiết </button>
+              </div>
+            </div>
+            <div class="col-7">
+
+              <button class="btn btn-success btn-lg btn-block mb-3"> Đăng bài viết</button>
+              <div class="border border-dark rounded ">
+                <div class="d-flex">
+                  <h3 class="mr-auto p-2"> <strong>Bài viết</strong></h3>
+                  <div class="p-2">
+                    <button class="btn btn-secondary"> bộ lọc</button>
+                    <button class="btn btn-secondary"> Quản lí </button>
+                  </div>
                 </div>
+                <hr>
+                <div class="card mt-2">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-1 d-none d-md-block">
+                        <img class="rounded-circle" src="https://via.placeholder.com/50">
+                      </div>
+                      <div class="col-lg-9 col-md-9 col-sm-11">
+                        <div class="Title">
+                          <a href="postdetail.html">
+                            <h3>Title
+                            </h3>
+                          </a>
+                          <span class="badge badge-primary">sss</span>
+                          <span class="badge badge-secondary">thông báo</span>
+                          <span class="badge badge-success">hỏi đáp </span>
+                        </div>
+                        <p><i class="icon fas fa-reply "></i> thời gian đăng</p>
+                        <p>nội dung demo tối da 100 kí tự g demonội dung demo nội dung demonội dung demonội dung demonội
+                          dung demo....</p>
+
+                      </div>
+                      <div class="col-lg-2 col-sm-1 px-sm-1">
+                        <span class="d-none d-md-block"><i class="far fa-comment"></i>24</span>
+                        <span class="d-none d-md-block"><i class="far fa-eye"></i> 19123</span>
+                        <span class="badge badge-pill badge-dark d-md-none">24</span>
+                        <span class="badge badge-pill badge-light d-md-none">19123</span>
+                        <button class="btn btn-success">sửa</button>
+                        <button class="btn btn-danger">Xóa</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="card mt-2">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-1 d-none d-md-block">
+                        <img class="rounded-circle" src="https://via.placeholder.com/50">
+                      </div>
+                      <div class="col-lg-9 col-md-9 col-sm-11">
+                        <div class="Title">
+                          <a href="postdetail.html">
+                            <h3>Title
+                            </h3>
+                          </a>
+                          <span class="badge badge-primary">sss</span>
+                          <span class="badge badge-secondary">thông báo</span>
+                          <span class="badge badge-success">hỏi đáp </span>
+                        </div>
+                        <p><i class="icon fas fa-reply "></i> thời gian đăng</p>
+                        <p>nội dung demo tối da 100 kí tự g demonội dung demo nội dung demonội dung demonội dung demonội
+                          dung demo....</p>
+
+                      </div>
+                      <div class="col-lg-2 col-sm-1 px-sm-1">
+                        <span class="d-none d-md-block"><i class="far fa-comment"></i>24</span>
+                        <span class="d-none d-md-block"><i class="far fa-eye"></i> 19123</span>
+                        <span class="badge badge-pill badge-dark d-md-none">24</span>
+                        <span class="badge badge-pill badge-light d-md-none">19123</span>
+                        <button class="btn btn-success">sửa</button>
+                        <button class="btn btn-danger">Xóa</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
             </div>
-            <div class="col-12 text-center">
-                <h3><strong>Nguyễn Đông Hướng</strong></h3>
-                <h5 class="text-muted">còn đây là một dòng gì đó ngầu lòi</h5>
+          </div>
+
+        </div>
+        <div id="nhanvatpill" class="tab-pane fade">
+          <div class="row">
+            <div class="col-5">
+              cái này để rương
             </div>
-            
+            <div class="col-7">
+              <div>
+                <div class="hang1">
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item1"></div>
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item2"></div>
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item3"></div>
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item4"></div>
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item5"></div>
+                </div>
+                <div class="hang2">
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item6"></div>
+                  <div class="o-item-empty"></div>
+                  <div class="o-item-empty"></div>
+                  <div class="o-item-empty"></div>
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item7"></div>
+                </div>
+                <div class="hang3">
+                  <div class="o-item " data-toggle="tooltip" data-placement="top" title="Item8"></div>
+                  <div class="o-item-empty "></div>
+                  <div class="o-item-final"></div>
+                  <div class="o-item-empty"></div>
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item9"></div>
+                </div>
+                <div class="hang4">
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item10"></div>
+                  <div class="o-item-empty"></div>
+                  <div class="o-item-empty"></div>
+                  <div class="o-item-empty"></div>
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item11"></div>
+                </div>
+                
+                <div class="hang5">
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item12"></div>
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item13"></div>
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item14"></div>
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item15"></div>
+                  <div class="o-item" data-toggle="tooltip" data-placement="top" title="Item16"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <ul class="nav nav-pills nav-stacked ml-5">
-          <li class="nav-item">
-            <a data-toggle="pill" href="#home" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item">
-            <a data-toggle="pill" href="#nhanvatpill" class="nav-link">nhân vật</a>
-          </li>
-          <li class="nav-item ">
-            <a data-toggle="pill" href="#itempill" class="nav-link">vật phẩm</a>
-          </li>
-        </ul>
-        <div class="tab-content">
-          <div id="home" class="tab-pane fade in active">
-            <h3>HOME</h3>
-            <p>Some content.</p>
-          </div>
-          <div id="nhanvatpill" class="tab-pane fade">
-            <h3>Menu 1</h3>
-            <p>Some content in menu 1.</p>
-          </div>
-          <div id="itempill" class="tab-pane fade">
-            <h3>Menu 2</h3>
-            <p>Some content in menu 2.</p>
-          </div>
+        <div id="itempill" class="tab-pane fade">
+          <h3>Menu 2</h3>
+          <p>Some content in menu 2.</p>
         </div>
+      </div>
     </div>
   </div>
 
-  
-<!-- Modal -->
-<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Đăng nhập</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="container text-center display-4">
-          <a href="#"><i class="fab fa-google btn-google"></i></a>
-          <a href="#"><i class="fab fa-facebook btn-facebook"></i></a>
-          <a href="#"><i class="fab fa-github btn-github"></i></a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Đăng nhập</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address or username</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <div class="modal-body">
+          <div class="container text-center display-4">
+            <a href="#"><i class="fab fa-google btn-google"></i></a>
+            <a href="#"><i class="fab fa-facebook btn-facebook"></i></a>
+            <a href="#"><i class="fab fa-github btn-github"></i></a>
           </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Ghi nhớ</label>
-          </div>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address or username</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Ghi nhớ</label>
+            </div>
             <button style="width:100%" type="submit" class="btn btn-primary">Đăng nhập</button>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <div style="width:100%">
-          <p><a href="">Quên mật khẩu?</a></p>
+          </form>
         </div>
-        <div style="width:100%">
-          <p>Không có tài khoản <a href="">Đăng ký</a></p>
-      </div>
+        <div class="modal-footer">
+          <div style="width:100%">
+            <p><a href="">Quên mật khẩu?</a></p>
+          </div>
+          <div style="width:100%">
+            <p>Không có tài khoản <a href="">Đăng ký</a></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
-<!-- footer -->
+  <!-- footer -->
 
-<footer class="footer actived">
-  <div class="container text-center display-4" >
+  <footer class="footer actived">
+    <div class="container text-center display-4">
       đây là footer
-  </div>
-</footer>
+    </div>
+  </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="/asset/js/fontawesomekit.js"></script>
-  
+
 
 </body>
 

@@ -16,3 +16,31 @@
     height: 245px;
     width: 245px;
 }
+.o-item{
+    background: url(/images/z.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.o-item-empty{
+    
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.o-item-final{
+    background:url(/images/yy.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background-repeat: no-repeat;
+    
+    
+    
+}
