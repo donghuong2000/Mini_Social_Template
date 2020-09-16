@@ -50,3 +50,14 @@
     height: 50px;
     background-size: contain;
 }
+.o-do-shop{
+    background:url(/images/z.png);
+    width: 50px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.price{
+    padding-bottom: 0% !important;
+}

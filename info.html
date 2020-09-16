@@ -114,7 +114,7 @@
         </li>
       </ul>
       <div class="tab-content">
-        <div id="home" class="tab-pane fade in active">
+        <div id="home" class="tab-pane fade in active show">
           <div class="row">
             <div class="col-5">
               <div class="border border-dark rounded">
@@ -224,9 +224,8 @@
                       <option value="1">Quần</option>
                       </select>
                       <button class="btn btn-sm btn-secondary">Nới ô đồ</button>
+                      <button class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#ShopItem">Cửa hàng</button>
                   </div>
-                  
-
                 </div>
                 
                 <div class="hang1 d-flex justify-content-center">
@@ -312,46 +311,325 @@
 
 
   <!-- Modal -->
-  <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade" id="ShopItem" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Đăng nhập</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Cửa Hàng</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          <div class="container text-center display-4">
-            <a href="#"><i class="fab fa-google btn-google"></i></a>
-            <a href="#"><i class="fab fa-facebook btn-facebook"></i></a>
-            <a href="#"><i class="fab fa-github btn-github"></i></a>
+          <ul class="nav nav-pills nav-stacked">
+            <li class="nav-item">
+              <a data-toggle="pill" href="#Shop" class="nav-link active">All</a>
+            </li>
+            <li class="nav-item">
+              <a data-toggle="pill" href="#Shop"class="nav-link">Hào Quang</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#itempill" class="nav-link">Quần</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#Shop" class="nav-link">Cánh</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#Shop" class="nav-link">Áo</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#Shop" class="nav-link">Quần</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#Shop" class="nav-link">Mặt</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#Shop" class="nav-link">Mắt</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#Shop" class="nav-link">Tóc</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#Shop" class="nav-link">Nón</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#Shop" class="nav-link">Mặt nạ</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#Shop" class="nav-link">Kính</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#Shop" class="nav-link">Thú Cưng</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#Shop" class="nav-link">Cầm tay</a>
+            </li>
+            <li class="nav-item ">
+              <a data-toggle="pill" href="#Shop" class="nav-link">Trái tim</a>
+            </li>
+          </ul>
+          <div id="Shop" class="tab-pane fade">
+            <div class="row">
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  <div class="o-do-shop d-flex flex-column mr-1" data-toggle="tooltip" data-placement="top" title="Item1">
+                    <img src="" alt="item">
+                     <div class="price mt-auto">
+                       100xu
+                     </div>
+                  </div>
+                  
+                  
+            </div>  
           </div>
-          <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address or username</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Ghi nhớ</label>
-            </div>
-            <button style="width:100%" type="submit" class="btn btn-primary">Đăng nhập</button>
-          </form>
         </div>
         <div class="modal-footer">
-          <div style="width:100%">
-            <p><a href="">Quên mật khẩu?</a></p>
-          </div>
-          <div style="width:100%">
-            <p>Không có tài khoản <a href="">Đăng ký</a></p>
+          
           </div>
         </div>
       </div>
